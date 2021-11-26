@@ -1,0 +1,71 @@
+.heading {
+    width: 100%;
+    text-align: left;
+}
+
+html{
+    scroll-behavior: auto;
+}
+
+.heading h3 {
+    font-family: 'Rampart One', cursive;
+    font-weight: 900;
+    display: inline;
+    font-size: 35px;
+}
+
+.heading button {
+    font-family: 'Rampart One', cursive;
+    float: right;
+    border: 2px solid whitesmoke;
+    font-weight: 900;
+    font-size: 30px;
+    border-radius: 40px;
+}
+
+.big_img {
+    width: 50%;
+    border: 10px outset darkblue;
+    border-radius: 40px;
+    padding: 5px;
+}
+
+#start,
+#status {
+    font-size: 25px;
+    border: 2px solid whitesmoke;
+    font-weight: 900;
+    border-radius: 40px;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+h4 {
+    margin: 0px;
+    background-color: royalblue;
+    line-height: 2;
+    font-weight: 900;
+    font-size: 15;
+    color: whitesmoke;
+}
+
+a {
+    color: yellowgreen;
+    font-weight: 900;
+    font-size: 15;
+}
+
+.modal-dialog {
+    width: 90%;
+}
+
+.instruction_img {
+    display: inline-block;
+    width: 45%;
+}
+
+video {
+    background: url('game_console.png');
+    background-size: cover;
+    background-position: center;
+    padding: 25px;
+}
